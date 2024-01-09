@@ -1,6 +1,4 @@
-# Nome do Projeto
-
-Descrição concisa e informativa sobre o projeto.
+# Delliv 
 
 ## Pré-requisitos
 
