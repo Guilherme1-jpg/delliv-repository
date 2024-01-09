@@ -6,8 +6,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 
 @Injectable()
 export class OrderRepositoryPrisma implements OrderRepository {
-  // eslint-disable-next-line prettier/prettier
-  constructor(private readonly prisma: PrismaService) { }
+  constructor(private readonly prisma: PrismaService) {}
 
   async findOne(args: object): Promise<Order | any> {
     let user;

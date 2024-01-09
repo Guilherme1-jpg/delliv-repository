@@ -5,8 +5,7 @@ import { PrismaService } from '../prisma.service';
 import { UserMapperPrisma } from '../mappers/user-mapper-prisma';
 @Injectable()
 export class UserRepositoryPrisma implements UserRepository {
-  // eslint-disable-next-line prettier/prettier
-  constructor(private readonly prisma: PrismaService) { }
+  constructor(private readonly prisma: PrismaService) {}
 
   async findOne(args: object): Promise<User | null> {
     try {

@@ -19,5 +19,5 @@ import { OrderRepositoryPrisma } from './prisma/repositories/order-repository-pr
   ],
   exports: [UserRepository, OrderRepository],
 })
-// eslint-disable-next-line prettier/prettier
-export class Database { }
+
+export class Database {}

@@ -1,4 +1,3 @@
-// MockUser.ts
 import { User, UserProps } from '@domain/users/entities/user';
 import { Roles } from '@domain/users/entities/roles.enum';
 import { randomUUID } from 'crypto';
@@ -17,7 +16,7 @@ export function MockUser(
     email,
     password,
     role,
-    name: name || 'DefaultName', // Ou ajuste conforme necessário
+    name: name || 'DefaultName',
     createdAt: createdAt || new Date(),
     updatedAt,
   };

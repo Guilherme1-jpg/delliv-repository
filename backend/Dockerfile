@@ -7,7 +7,7 @@ COPY prisma ./prisma/
 
 RUN npm install
 
-EXPOSE 3016
+EXPOSE 3002
 
 FROM common-build-stage as development-build-stage
 

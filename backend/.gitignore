@@ -44,4 +44,4 @@ yarn.lock
 
 # Files tests
 seeds.js
-*.pem
+private_key.pem

@@ -17,11 +17,11 @@ model Order {
 }
 
 model UserAccess {
-  createdAt  DateTime     @default(now())
-  id         String       @id @default(uuid())
-  name       String
-  role       String[]
-  email      String
-  password   String
-  updatedAt  DateTime     @updatedAt
+  createdAt DateTime @default(now())
+  id        String   @id @default(uuid())
+  name      String
+  role      String[]
+  password  String
+  updatedAt DateTime @updatedAt
+  email     String
 }

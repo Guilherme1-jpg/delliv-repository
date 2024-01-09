@@ -9,8 +9,7 @@ import { hashSync } from 'bcrypt';
 
 @Injectable()
 export class UpdateUser {
-  // eslint-disable-next-line prettier/prettier
-  constructor(private readonly userRepository: UserRepository) { }
+  constructor(private readonly userRepository: UserRepository) {}
 
   async execute(
     id: string,

@@ -26,7 +26,7 @@ export class OrderController {
     private createOrder: CreateOrder,
     private updateOrder: UpdateOrder,
     private findOne: FindOneOrder,
-    private findAll: FindAllOrder, // eslint-disable-next-line prettier/prettier
+    private findAll: FindAllOrder,
   ) { }
 
   @Post('new')

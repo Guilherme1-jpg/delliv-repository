@@ -8,8 +8,7 @@ export interface findAllOrders {
 
 @Injectable()
 export class FindAllOrder {
-  // eslint-disable-next-line prettier/prettier
-  constructor(private readonly orderRepository: OrderRepository) { }
+  constructor(private readonly orderRepository: OrderRepository) {}
 
   async execute(): Promise<findAllOrders> {
     const orders = await this.orderRepository.findAll();

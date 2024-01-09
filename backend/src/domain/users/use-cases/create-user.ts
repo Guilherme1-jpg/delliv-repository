@@ -15,8 +15,7 @@ export interface newUserCreate {
 
 @Injectable()
 export class CreateUser {
-  // eslint-disable-next-line prettier/prettier
-  constructor(private userRepository: UserRepository) { }
+  constructor(private userRepository: UserRepository) {}
 
   async execute(
     { name, role, email, password }: newUserCreate,

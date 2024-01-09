@@ -6,5 +6,5 @@ import { ConfigModule } from '@nestjs/config';
 @Module({
   imports: [ConfigModule.forRoot(), HttpModule, Database],
 })
-// eslint-disable-next-line prettier/prettier
-export class AppModule { }
+
+export class AppModule {}

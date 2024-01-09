@@ -28,8 +28,8 @@ export class UserController {
     private createUser: CreateUser,
     private findOne: FindOne,
     private updateUser: UpdateUser,
-    private removeUser: RemoverUser, // eslint-disable-next-line prettier/prettier
-  ) { }
+    private removeUser: RemoverUser,
+  ) {}
 
   @Post('new')
   @UseGuards(JwtGuard, RolesGuard)

@@ -1,19 +1,20 @@
 version: '3.5'
 
 services:
-  server:
+  backend:
     container_name: delliv-backend
     build:
-      context: ./
+      context: ./backend
       target: development-build-stage
       dockerfile: Dockerfile
     ports:
-      - '3016:3001'
+      - '3002:3002'
     volumes:
       - .:/app
     restart: unless-stopped
     depends_on:
       - db
+
   db:
     container_name: delliv-backend_database
     image: postgres:12.12
@@ -26,3 +27,12 @@ services:
       - './doc/backup:/docker-entrypoint-initdb.d/up.sql'
       - '/etc/backups/data-postgres/delliv-backend:/var/lib/postgresql/data'
     restart: always
+
+  frontend:
+    container_name: delliv-front
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    restart: unless-stopped

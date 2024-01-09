@@ -48,5 +48,4 @@ import { OrderController } from './http/controllers/order-controller';
     Auth,
   ],
 })
-// eslint-disable-next-line prettier/prettier
-export class HttpModule { }
+export class HttpModule {}
