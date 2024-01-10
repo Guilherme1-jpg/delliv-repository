@@ -12,8 +12,7 @@
 1. **Clone este repositório.**
 
     ```bash
-    git clone https://github.com/guilherme1-jgp/delliv-repo.git
-    cd nome-do-projeto
+    git clone https://github.com/guilherme1-jgp/delliv-repository.git
     ```
 
 2. **Instale as dependências:**
@@ -28,10 +27,10 @@
     yarn
     ```
 
-3. **Copie o arquivo de exemplo de configuração do Prisma:**
+3. **Copie o arquivo de exemplo de configuração**
 
     ```bash
-    cp prisma/.env.example prisma/.env
+    cp .env.example
     ```
 
     Edite `prisma/.env` conforme necessário.
@@ -57,8 +56,7 @@ Para autenticação segura, você precisará de um par de chaves privada e públ
     ```bash
     openssl rsa -pubout -in private.pem -out public.pem
     ```
-
-    Guarde esses arquivos com segurança. A chave privada (`private.pem`) deve ser mantida em segredo, enquanto a chave pública (`public.pem`) pode ser compartilhada para fins de autenticação.
+    Adicione ambas chaves no diretório keysAccess.
 
 ## Executando a Aplicação
 
