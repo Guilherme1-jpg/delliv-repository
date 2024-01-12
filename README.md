@@ -31,19 +31,11 @@
     npm install
     ```
 
-    ou
-
-    ```bash
-    yarn
-    ```
-
 3. **Copie o arquivo de exemplo de configuração**
 
     ```bash
     cp .env.example
     ```
-
-    Edite `prisma/.env` conforme necessário.
 
 4. **Inicialize o banco de dados com Prisma:**
 
