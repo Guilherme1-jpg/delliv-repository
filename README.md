@@ -1,5 +1,5 @@
-# Delliv 
-
+# Rastreamento
+- O projeto trata-se de um sistema de rastreio de entregas/pedidos, com foco na arquitetura, usando alguns conceitos como SOLID e Atomic design. Onde somente o usuario admin pode ter as permissoes de alteracao.
 ## Pré-requisitos
 
 - Node.js (v18.x)
