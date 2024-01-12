@@ -1,5 +1,15 @@
 # Rastreamento
 - O projeto trata-se de um sistema de rastreio de entregas/pedidos, com foco na arquitetura, usando alguns conceitos como SOLID e Atomic design.
+## Tecnologias
+- ReactJs
+- Nodejs v18
+- Nestjs
+- PrismaOrm
+- Postgresql
+- Jest
+- Docker
+- Material UI
+- JWT e Chaves PEM
 ## Pré-requisitos
 
 - Node.js (v18.x)
