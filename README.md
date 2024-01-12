@@ -1,5 +1,5 @@
 # Rastreamento
-- O projeto trata-se de um sistema de rastreio de entregas/pedidos, com foco na arquitetura, usando alguns conceitos como SOLID e Atomic design. Onde somente o usuario admin pode ter as permissoes de alteracao.
+- O projeto trata-se de um sistema de rastreio de entregas/pedidos, com foco na arquitetura, usando alguns conceitos como SOLID e Atomic design.
 ## Pré-requisitos
 
 - Node.js (v18.x)
@@ -87,3 +87,7 @@ Para autenticação segura, você precisará de um par de chaves privada e públ
     ```bash
     docker-compose up
     ```
+
+## Regras e futuras features
+- Somente admin pode fazer alteracoes, e criar os usuarios para o sistema.
+- Feature futura/andamento: Notificacoes referente a alteracao do pedido e a permissao. 
